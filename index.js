@@ -17,6 +17,7 @@ async function run() {
         const courseCollection = database.collection('tour');
 
         // Get API //
+        // Get API //
 
         app.get('/course', async (req, res) => {
             const cursor = courseCollection.find({});
