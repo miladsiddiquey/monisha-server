@@ -13,8 +13,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         await client.connect();
-        const database = client.db('package_info');
-        const courseCollection = database.collection('courses');
+        const database = client.db('travelAgency');
+        const courseCollection = database.collection('tour');
 
         // Get API //
 
